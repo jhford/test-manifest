@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com/" />
+  <remote name="b2g"
+          fetch="git://github.com/mozilla-b2g/" />
+  <remote name="andreasgal"
+          fetch="git://github.com/andreasgal/" />
+  <remote name="jhford"
+          fetch="git://github.com/jhford/" />
+  <default revision="master"
+           remote="aosp"
+           sync-j="4" />
+
+  <!-- Gonk specific things and forks -->
+  <project path="gaia" name="gaia" remote="jhford" revision="d742428b4e449eea4fca906ae8c526927729d527" />
+</manifest>
