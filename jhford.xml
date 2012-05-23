@@ -14,5 +14,5 @@
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
-  <project path="gaia" name="gaia" remote="jhford" revision="d742428b4e449eea4fca906ae8c526927729d527" />
+  <project path="test/path/gaia" name="gaia" remote="jhford" revision="d742428b4e449eea4fca906ae8c526927729d527" />
 </manifest>
